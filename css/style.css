@@ -1,0 +1,296 @@
+body {margin:0;}
+
+.header {
+    width:100%;
+    height:150px;
+    background-color:#303030;
+    text-shadow: 5px 10px 10px white;
+    font-family:helvetica;
+    text-decoration: all;
+    text-align: center;
+    text-rendering: auto;
+    font-size:100px;
+    color:white; 
+    position: fixed;
+    text-indent: 10px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.header {
+     top:0px;
+}
+.header .under_header {
+    width:20%;
+    height: 150px;
+    float:left;
+}
+
+.header .under_header img {
+
+    width:100%;
+    height:100%;
+    align-content: left;
+
+}
+
+ 
+ .nav  {
+    overflow: hidden;
+    background-color: none;
+    position: fixed;
+    top: 55px;
+    width: 100%; 
+    text-align: right;
+    transform: none;
+    margin-left: 280px;  
+    display: inline;  
+   }
+
+
+   
+
+  .nav, ul, li, a {      
+      float: left;
+     display: block;
+     color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;   
+   }
+
+  li{
+
+    border-color:white;
+   }
+
+ .poster {
+      width: 100%;
+ }
+ 
+
+ .Bollywood figure a img {
+          image-rendering: optimizeQuality;
+          width: 100%;
+          float: left;
+          max-width: 500px;
+          min-width: 300px;
+          margin-top:100px;
+          height:400px; 
+          text-align: center;
+          
+      }
+
+.Hollywood figure a img {
+          image-rendering: optimizeQuality;
+          width: 100%;
+          max-width: 500px;
+          min-width: 300px;
+          float: left;
+          height: 400px;
+          margin-top:100px;
+          text-align: center;
+          
+      }
+
+.Punjabi figure a img {
+          image-rendering: optimizeQuality;
+          width: 100%;
+          max-width: 500px;
+          min-width: 200px;
+          float:left;
+          height: 400px;
+          margin-top:100px;
+          text-align: center;
+          
+      }
+    
+
+  .hero-unit {
+    
+    padding: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background-color: #303030;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-right: -10px;
+}
+
+.hero-unit img{
+     width:100%;
+
+}
+
+.Punjabi figure figcaption {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Hollywood figure figcaption {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Bollywood figure figcaption {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#bollywood {
+      width: 100%;
+      height: 1000px;
+      margin-top: 230px;
+      background: #E6E6FA;
+      
+
+  }
+
+ #bollywood #bollyWood1stMovie{
+       border-bottom: 1px solid black ;
+      
+       width:100%;
+       height: 30%;
+       background: #606060;
+       word-spacing: 10px;
+       text-align: left; 
+         
+
+  }
+
+#bollywood #bollyWood1stMovie div img {
+  
+    width:35%;
+    height:295px;
+    margin-top: 5px;
+    float:right;
+    align-content: left;
+    float:right;
+    
+}
+
+#bollywood #bollyWood1stMovie div aside
+    {
+      width: 65%;
+      height: 250px;
+      margin-top: 5px;
+      text-align: right;
+      font-size:18px;
+      font-family: sans-serif;
+      color:black;   
+        
+    }
+
+
+    #bollywood #bollyWood2ndMovie{
+       border-bottom: 1px solid black ;      
+       width:100%;
+       height: 30%;
+       background: #606060;
+       word-spacing: 10px;
+       text-align: left;
+       margin-top: 10px;
+       color:black;
+
+  }
+
+#bollywood #bollyWood2ndMovie div img {
+  
+    width:35%;
+    height:295px;
+    margin-top: 5px;
+    float:right;
+    align-content: left;
+    float:right;
+    
+}
+
+#bollywood #bollyWood2ndMovie div aside
+    {
+      width: 65%;
+      height: 250px;
+      margin-top: 5px;
+      text-align: right;
+      font-size:18px;
+      font-family: sans-serif;   
+        
+    }
+#bollywood #bollyWood1stMovie div aside a {
+  color:black;
+  
+}
+
+#bollywood #bollyWood2ndMovie div aside a {
+  color:black;
+  
+}
+
+#bollywood #bollyWood3rdMovie{
+       border-bottom: 1px solid black ;      
+       width:100%;
+       height: 30%;
+       background: #606060;
+       word-spacing: 10px;
+       text-align: left;
+       margin-top: 10px;
+       color:black;
+
+  }
+
+#bollywood #bollyWood3rdMovie div img {
+  
+    width:35%;
+    height:295px;
+    margin-top: 5px;
+    float:right;
+    align-content: left;
+    float:right;
+    
+}
+
+#bollywood #bollyWood3rdMovie div aside
+    {
+      width: 65%;
+      height: 250px;
+      margin-top: 5px;
+      text-align: left;
+      font-size:18px;
+      font-family: sans-serif;   
+        
+    }
+
+footer {
+    clear:both;
+    width:100%;
+    height:50px;
+    background-color:#303030;
+    text-shadow: 1px 1px 1px white;
+    font-family:sans-serif;
+    text-decoration:none;
+    text-align: center;
+    text-rendering: auto;
+    font-size:15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;  
+    color:black;
+    position:absolute;
+
+  }
+
+
+footer a img {
+    width:15px;
+    height: 15px;
+    margin:auto;
+    display: inline-block;
+    
+    
+
+}
