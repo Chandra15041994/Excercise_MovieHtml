@@ -1,7 +1,5 @@
-body {margin:0;}
-
 .header {
-    width:100%;
+    width:99%;
     height:150px;
     background-color:#303030;
     text-shadow: 5px 10px 10px white;
@@ -38,28 +36,25 @@ body {margin:0;}
 
  
  .nav  {
-    overflow: hidden;
-    background-color: none;
-    position: fixed;
-    top: 55px;
-    width: 100%; 
+    width:100%;
+    height:25px;  
     text-align: right;
-    transform: none;
-    margin-left: 280px;  
-    display: inline;  
+    word-spacing: 12px;
+
+    background-color:none ;
+    font-family: sans-serif;    
+    position:fixed;      
    }
-
-
    
 
   .nav, ul, li, a {      
-      float: left;
-     display: block;
-     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;   
+      display: inline-block;
+      font-size: 18px;
+      text-decoration:none;
+      font-family: sans-serif;
+      text-shadow: 2px 1px 2px white;
+       color:white;
+       padding: 25px 15px;    
    }
 
   li{
@@ -78,7 +73,7 @@ body {margin:0;}
           float: left;
           max-width: 500px;
           min-width: 300px;
-          margin-top:100px;
+          margin-top:90px;
           height:400px; 
           text-align: center;
           
@@ -91,7 +86,7 @@ body {margin:0;}
           min-width: 300px;
           float: left;
           height: 400px;
-          margin-top:100px;
+          margin-top:90px;
           text-align: center;
           
       }
@@ -103,14 +98,13 @@ body {margin:0;}
           min-width: 200px;
           float:left;
           height: 400px;
-          margin-top:100px;
+          margin-top:90px;
           text-align: center;
           
       }
     
 
   .hero-unit {
-    
     padding: 60px;
     margin-bottom: 30px;
     font-size: 18px;
@@ -121,7 +115,6 @@ body {margin:0;}
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    margin-right: -10px;
 }
 
 .hero-unit img{
@@ -143,153 +136,26 @@ body {margin:0;}
     text-align: center;
     font-family: sans-serif;
 }
-
-#bollywood {
-      width: 100%;
-      height: 1000px;
-      margin-top: 230px;
-      background: #E6E6FA;
-      
-
-  }
-
- #bollywood #bollyWood1stMovie{
-       border-bottom: 1px solid black ;
-      
-       width:100%;
-       height: 30%;
-       background: #606060;
-       word-spacing: 10px;
-       text-align: left; 
-         
-
-  }
-
-#bollywood #bollyWood1stMovie div img {
-  
-    width:35%;
-    height:295px;
-    margin-top: 5px;
-    float:right;
-    align-content: left;
-    float:right;
-    
-}
-
-#bollywood #bollyWood1stMovie div aside
-    {
-      width: 65%;
-      height: 250px;
-      margin-top: 5px;
-      text-align: right;
-      font-size:18px;
-      font-family: sans-serif;
-      color:black;   
-        
-    }
-
-
-    #bollywood #bollyWood2ndMovie{
-       border-bottom: 1px solid black ;      
-       width:100%;
-       height: 30%;
-       background: #606060;
-       word-spacing: 10px;
-       text-align: left;
-       margin-top: 10px;
-       color:black;
-
-  }
-
-#bollywood #bollyWood2ndMovie div img {
-  
-    width:35%;
-    height:295px;
-    margin-top: 5px;
-    float:right;
-    align-content: left;
-    float:right;
-    
-}
-
-#bollywood #bollyWood2ndMovie div aside
-    {
-      width: 65%;
-      height: 250px;
-      margin-top: 5px;
-      text-align: right;
-      font-size:18px;
-      font-family: sans-serif;   
-        
-    }
-#bollywood #bollyWood1stMovie div aside a {
-  color:black;
-  
-}
-
-#bollywood #bollyWood2ndMovie div aside a {
-  color:black;
-  
-}
-
-#bollywood #bollyWood3rdMovie{
-       border-bottom: 1px solid black ;      
-       width:100%;
-       height: 30%;
-       background: #606060;
-       word-spacing: 10px;
-       text-align: left;
-       margin-top: 10px;
-       color:black;
-
-  }
-
-#bollywood #bollyWood3rdMovie div img {
-  
-    width:35%;
-    height:295px;
-    margin-top: 5px;
-    float:right;
-    align-content: left;
-    float:right;
-    
-}
-
-#bollywood #bollyWood3rdMovie div aside
-    {
-      width: 65%;
-      height: 250px;
-      margin-top: 5px;
-      text-align: left;
-      font-size:18px;
-      font-family: sans-serif;   
-        
-    }
-
 footer {
-    clear:both;
+   
     width:100%;
-    height:50px;
+    height:55px;
     background-color:#303030;
     text-shadow: 1px 1px 1px white;
     font-family:sans-serif;
-    text-decoration:none;
-    text-align: center;
-    text-rendering: auto;
-    font-size:15px;
+    font-size:10px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;  
     color:black;
     position:absolute;
-
+  
   }
 
 
 footer a img {
     width:15px;
     height: 15px;
-    margin:auto;
-    display: inline-block;
+   display: inline;
     
     
 
